@@ -1,2 +1,2 @@
-web: gunicorn animoapi.wsgi
+web: gunicorn AnimoAPI.wsgi
 release: python manage.py migrate
